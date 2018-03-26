@@ -46,7 +46,7 @@
                     <div class="col-lg-6 col-md-7 mtop-10 mbottom-10">
                         <div class="clearfix well well-info">
                             <div class="col-xs-12">
-                                <h5 class="text-center">COMPAÑIA X</h5>
+                                <h5 class="text-center">COMPAÑIA</h5>
                                 <p class="text-smaller">
                                     Gestiona todas tus operaciones en este sitio web.
                                     <br/>Entra con una cuenta de Google
