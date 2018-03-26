@@ -101,8 +101,7 @@ public class UserService implements IUserService{
             role = roleService.getByName("ROLE_USER");
             user.roles.add(role);
 
-            if(googleProfile.getEmail().equalsIgnoreCase("angelscrf@gmail.com") ||
-               googleProfile.getEmail().equalsIgnoreCase("jangel59cocula@gmail.com")){
+            if( googleProfile.getEmail().equalsIgnoreCase("angelscrf@gmail.com") ){
                 role = roleService.getByName("ROLE_ADMIN");
                 user.roles.add(role);
             }
