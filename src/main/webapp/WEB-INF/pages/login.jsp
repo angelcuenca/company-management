@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio COMPUSER</title>
+    <title>Inicio</title>
 
     <%--Bootstrap Theme--%>
     <link href="${pageContext.request.contextPath}/statics/css/bootstrap.css" rel="stylesheet">
