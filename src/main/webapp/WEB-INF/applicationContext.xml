@@ -6,7 +6,7 @@
 
     <context:annotation-config />  <!-- Turn on Autowired -->
 
-    <context:component-scan base-package="pedroelmono.web.config"/>
+    <context:component-scan base-package="project.web.config"/>
 
     <!--Controllers-->
     <bean id="homeController" class="project.web.controller.HomeController" autowire="byType"></bean>

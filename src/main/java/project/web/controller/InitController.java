@@ -26,10 +26,10 @@ public class InitController {
     public String initEntities() {
         Role role1 = new Role("ROLE_ADMIN");
         long dos =roleService.save(role1);
-        log.warning("tonses genero 1 "+dos);
+
         role1 = new Role("ROLE_USER");
         long uno = roleService.save(role1);
-        log.warning("tonses genero "+uno);
+
         return "/login";
     }
 
