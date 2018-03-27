@@ -48,7 +48,7 @@
 
     <context-param>
         <param-name>contextClass</param-name>
-        <param-value>pedroelmono.web.config.MyXmlWebApplicationContext</param-value>
+        <param-value>project.web.config.MyXmlWebApplicationContext</param-value>
     </context-param>
 
     <!-- [END standard_mappings] -->
@@ -72,7 +72,7 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
     <listener>
-        <listener-class>pedroelmono.web.helper.OfyHelper</listener-class>
+        <listener-class>project.web.helper.OfyHelper</listener-class>
     </listener>
 
     <!-- [END Objectify] -->

@@ -9,13 +9,13 @@
     <context:component-scan base-package="pedroelmono.web.config"/>
 
     <!--Controllers-->
-    <bean id="homeController" class="pedroelmono.web.controller.HomeController" autowire="byType"></bean>
-    <bean id="loginController" class="pedroelmono.web.controller.LoginController" autowire="byType"></bean>
-    <bean id="initController" class="pedroelmono.web.controller.InitController" autowire="byType"></bean>
-    <bean id="requestController" class="pedroelmono.web.controller.RequestController" autowire="byType"></bean>
+    <bean id="homeController" class="project.web.controller.HomeController" autowire="byType"></bean>
+    <bean id="loginController" class="project.web.controller.LoginController" autowire="byType"></bean>
+    <bean id="initController" class="project.web.controller.InitController" autowire="byType"></bean>
+    <bean id="requestController" class="project.web.controller.RequestController" autowire="byType"></bean>
 
-    <bean id="userService" class="pedroelmono.web.service.UserService" autowire="byType"></bean>
-    <bean id="roleService" class="pedroelmono.web.service.RoleService" autowire="byType"></bean>
-    <bean id="requestService" class="pedroelmono.web.service.RequestService" autowire="byType"></bean>
+    <bean id="userService" class="project.web.service.UserService" autowire="byType"></bean>
+    <bean id="roleService" class="project.web.service.RoleService" autowire="byType"></bean>
+    <bean id="requestService" class="project.web.service.RequestService" autowire="byType"></bean>
 
 </beans>

@@ -6,6 +6,6 @@
 	http://www.springframework.org/schema/security
 	http://www.springframework.org/schema/security/spring-security-3.2.xsd">
 
-    <beans:bean class="pedroelmono.web.config.SecurityContext" autowire="byType"></beans:bean>
+    <beans:bean class="project.web.config.SecurityContext" autowire="byType"></beans:bean>
 
 </beans:beans>
