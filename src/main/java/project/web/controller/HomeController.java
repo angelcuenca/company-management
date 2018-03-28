@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value = {"/", "/mail"}, method = RequestMethod.GET)
+    @RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public String home(){
         //return "redirect:another";
         return "home";

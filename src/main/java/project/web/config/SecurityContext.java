@@ -46,6 +46,7 @@ public class SecurityContext extends WebSecurityConfigurerAdapter {
             .authorizeRequests()
                 .antMatchers(
                     "/init/**",
+                    "/",
                     "/login/**",
                     "/error/**",
                     "/signup/**",

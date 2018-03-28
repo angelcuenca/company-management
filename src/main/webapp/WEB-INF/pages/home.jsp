@@ -64,19 +64,19 @@
                         <section>
                             <div class="col-sm-7 col-md-6 col-md-offset-3">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Recipients</label>
+                                    <label>Recipients</label>
                                     <input type="text" class="form-control input-sm" placeholder="" name="recipients" value="example@sanmina.com">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Subject</label>
+                                    <label>Subject</label>
                                     <input type="text" class="form-control input-sm" placeholder="" name="subject" value="">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Body</label>
+                                    <label>Body</label>
                                     <input type="text" class="form-control input-sm" placeholder="" name="body">
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Attach File</label>
+                                    <label>Attach File</label>
                                     <input type="file" name="file">
                                 </div>
                                  <div>
