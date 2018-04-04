@@ -44,6 +44,6 @@ public class LoginController {
         //Remove url params
         model.asMap().clear();
 
-        return "redirect:/";
+        return "redirect:/requestnew";
     }
 }
