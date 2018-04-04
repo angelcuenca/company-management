@@ -23,6 +23,14 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+        <link href="${pageContext.request.contextPath}/statics/fonts/Simple-Line-Icons.woff2" rel="stylesheet">
+        <link href="${pageContext.request.contextPath}/statics/fonts/fontawesome-webfont.woff2" rel="stylesheet">
+        <link href="${pageContext.request.contextPath}/statics/fonts/Simple-Line-Icons.ttf" rel="stylesheet">
+        <link href="${pageContext.request.contextPath}/statics/fonts/fontawesome-webfont.woff" rel="stylesheet">
+        <link href="${pageContext.request.contextPath}/statics/fonts/Simple-Line-Icons.woff" rel="stylesheet">
+        <link href="${pageContext.request.contextPath}/statics/fonts/fontawesome-webfont.ttf" rel="stylesheet">
 
         <!-- Plugin CSS -->
         <link rel="stylesheet" href="${pageContext.request.contextPath}/statics/vendor/device-mockups.min.css">
