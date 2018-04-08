@@ -54,12 +54,12 @@
                 <ul class="navbar-nav ml-auto">
                     <!--<li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#features">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/login">Administradores</a>
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -71,8 +71,10 @@
             <div class="row h-100">
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
-                        <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-                        <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+                        <h1 class="mb-5">Gestiona todas tus operaciones en este sitio web.</br>
+                            Inicia con tu cuenta de Google
+                            </h1>
+                        <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Login</a>
                     </div>
                 </div>
                 <div class="col-lg-5 my-auto">
@@ -98,12 +100,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                    <p>Our app is available on any mobile device! Download now to get started!</p>
-                    <div class="badges">
+                    <h2 class="section-heading">Descubre con Compuser una mejor opcion para tus servicios.</h2>
+                    <p>Tenemos una gran variedad de servicios asi como reparacion de computadoras.</p>
+                    <!--<div class="badges">
                         <a class="badge-link" href="#"><img src="${pageContext.request.contextPath}/statics/img/google-play-badge.svg" alt=""></a>
                         <a class="badge-link" href="#"><img src="${pageContext.request.contextPath}/statics/img/app-store-badge.svg" alt=""></a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -112,8 +114,8 @@
     <section class="features" id="features">
         <div class="container">
             <div class="section-heading text-center">
-                <h2>Unlimited Features, Unlimited Fun</h2>
-                <p class="text-muted">Check out what you can do with this app theme!</p>
+                <h2>Dale seguimiento a tus ordenes de servicio</h2>
+                <p class="text-muted">Con Compuser puedes tener un seguimiento en todo momento sobre el estatus de tu computadora</p>
                 <hr>
             </div>
             <div class="row">
@@ -138,31 +140,31 @@
                             <div class="col-lg-6">
                                 <div class="feature-item">
                                     <i class="icon-screen-smartphone text-primary"></i>
-                                    <h3>Device Mockups</h3>
-                                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                    <h3>Registro</h3>
+                                    <p class="text-muted">Inicia orden de servicio</p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="feature-item">
-                                    <i class="icon-camera text-primary"></i>
-                                    <h3>Flexible Use</h3>
-                                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                                    <i class="icon-magnifier text-primary"></i>
+                                    <h3>Evaluacion</h3>
+                                    <p class="text-muted">Se registra una evuacion del estatus de la computadora</p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="feature-item">
-                                    <i class="icon-present text-primary"></i>
-                                    <h3>Free to Use</h3>
-                                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                                    <i class="icon-layers text-primary"></i>
+                                    <h3>Reparacion</h3>
+                                    <p class="text-muted">Serie de procesos para generar la reparacion/mantenimiento</p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="feature-item">
                                     <i class="icon-lock-open text-primary"></i>
-                                    <h3>Open Source</h3>
-                                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                                    <h3>Cierre</h3>
+                                    <p class="text-muted">Termina el proceso de orden de servicio</p>
                                 </div>
                             </div>
                         </div>
@@ -184,9 +186,9 @@
 
     <section class="contact bg-primary" id="contact">
         <div class="container">
-            <h2>We
+            <h2>Para estar en contacto
                 <i class="fa fa-heart"></i>
-                new friends!</h2>
+                </h2>
             <ul class="list-inline list-social">
                 <li class="list-inline-item social-twitter">
                     <a href="https://www.twitter.com/angelcuenca_">
@@ -209,7 +211,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; Compuser 2018. Todos los derechos reservados.</p>
+            <p>&copy; Compuser 2018. Todos los derechos reservados. Angel Cuenca</p>
             <ul class="list-inline">
                 <li class="list-inline-item">
                     <a href="#">Privacy</a>
