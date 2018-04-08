@@ -189,18 +189,18 @@
                 new friends!</h2>
             <ul class="list-inline list-social">
                 <li class="list-inline-item social-twitter">
-                    <a href="#">
+                    <a href="https://www.twitter.com/angelcuenca_">
                         <i class="fa fa-twitter"></i>
                     </a>
                 </li>
                 <li class="list-inline-item social-facebook">
-                    <a href="#">
+                    <a href="https://www.facebook.com/angel.sancuenca">
                         <i class="fa fa-facebook"></i>
                     </a>
                 </li>
                 <li class="list-inline-item social-google-plus">
-                    <a href="#">
-                        <i class="fa fa-google-plus"></i>
+                    <a href="https://www.instagram.com/angelcuenca_">
+                        <i class="fa fa-instagram"></i>
                     </a>
                 </li>
             </ul>
@@ -237,30 +237,3 @@
     </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
