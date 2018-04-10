@@ -7,14 +7,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Customer Satisfaction Survey</title>
-        <link rel='shortcut icon' type='image/x-icon' href='/statics/img/survey-icon.png'/>
+        <title>Company Management Session</title>
+        <link rel='shortcut icon' type='image/x-icon' href='/'/>
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
         <!-- Bootstrap -->
         <link href="${pageContext.request.contextPath}/statics/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom-Style -->
-        <link href="${pageContext.request.contextPath}/statics/css/custom-style.css" rel="stylesheet">
         <!-- jQuery UI -->
         <link rel="stylesheet" href="${pageContext.request.contextPath}/statics/css/jquery-ui.css">
     </head>
@@ -98,20 +96,5 @@
     <script src="${pageContext.request.contextPath}/statics/js/surveyengine.pmrequest.js"></script>
     <script src="${pageContext.request.contextPath}/statics/js/pmrequest.js"></script>
 
-    <script>
-        /* Create List with all survey responses */
-        var listAnswers = new Array();
-        <c:forEach items="${surveyAnswers}" var="listAnswers">
-            var answer = new Object();
-            answer.InputId = '${listAnswers.inputId}';
-            answer.QuestionText = '${listAnswers.questionText}';
-            answer.Answer = '${listAnswers.answer}';
-            answer.type = '${listAnswers.type}';
-            listAnswers.push(answer);
-        </c:forEach>
-
-        var surveyAnswer = SurveyEngine.surveyAnswer;
-        surveyAnswer.ready(listAnswers, "${notify}", "${statusResponse}", "${expirationDate}");
-    </script>
     </body>
 </html>

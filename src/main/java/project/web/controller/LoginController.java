@@ -30,6 +30,12 @@ public class LoginController {
         return "login";
     }
 
+    @RequestMapping(value = "/callback", method = RequestMethod.GET)
+    public String callbackGoogle(Model model){
+
+        return "requestnew";
+    }
+
     @RequestMapping(value = "/signup", method = RequestMethod.GET)
     public String redirectRequestToRegistrationPage(@RequestParam("token") String token, @RequestParam("service") String service, Model model, HttpServletRequest request) {
 
@@ -44,6 +50,6 @@ public class LoginController {
         //Remove url params
         model.asMap().clear();
 
-        return "redirect:/requestnew";
+        return "redirect:/request";
     }
 }
