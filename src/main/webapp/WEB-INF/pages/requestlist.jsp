@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Customer Satisfaction Survey</title>
+    <title>Company Management Session</title>
     <!--DataTable-->
     <!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
     <link rel='shortcut icon' type='image/x-icon' href='/statics/img/survey-icon.png'/>
@@ -213,6 +213,10 @@
                 <!--P A G I N A C I O N-->
             </div>
         </div>
+    </section>
+    <section class="text-center">
+        <h1>ADMIN PAGE</h1>
+        <h2>Working in the functionality</h2>
     </section>
 </div>
 
