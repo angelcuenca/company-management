@@ -120,7 +120,6 @@ public class UserService implements IUserService {
      */
     @Override
     public User findByEmail(String email) {
-        User user = objectifyService.ofy().load().entity(new User(email)).now();
-        return user;
+        return objectifyService.ofy().load().type(User.class).filter("email", email).first().now();
     }
 }

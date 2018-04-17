@@ -36,21 +36,21 @@
         <div class="collapse navbar-collapse pull-right" id="menu">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="${pageContext.request.contextPath}/request " class="uppercase text-medium">
-                        ENCARGOS
+                    <a href="${pageContext.request.contextPath}/ " class="uppercase text-medium">
+                        INICIO
+                    </a>
+                </li>
+                <li>
+                    <a href="${pageContext.request.contextPath}/ " class="uppercase text-medium">
+                        HISTORIAL
+                    </a>
+                </li>
+                <li>
+                    <a href="${pageContext.request.contextPath}/ " class="uppercase text-medium">
+                        ADMIN
                     </a>
                 </li>
                 <!--
-                <li>
-                    <a href="${pageContext.request.contextPath}/ " class="uppercase text-medium">
-                        TAB2
-                    </a>
-                </li>
-                <li>
-                    <a href="${pageContext.request.contextPath}/ " class="uppercase text-medium">
-                        TAB3
-                    </a>
-                </li>
                 <li>
                     <a href="${pageContext.request.contextPath}/" class="uppercase text-medium">
                         TAB4

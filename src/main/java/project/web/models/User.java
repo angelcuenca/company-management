@@ -14,6 +14,8 @@ import java.util.List;
 @Entity
 public class User implements Serializable{
     @Id
+    public Long id;
+
     public String email;
 
     public String name;
@@ -32,6 +34,14 @@ public class User implements Serializable{
     public User(String email){
         this.email = email;
         this.isActive = true;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getEmail() {
