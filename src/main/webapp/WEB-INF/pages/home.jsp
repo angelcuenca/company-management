@@ -263,7 +263,7 @@
         }
 
         hello.init( {
-            google 	: "447432173054-o0u9nm2ib85ebjum67h9a21kavjrnapp.apps.googleusercontent.com"
+            google 	: "567947741943-b739f4oafrbvs65oph5muq335jqg2q1f.apps.googleusercontent.com"
         },{
             redirect_uri:'callback',
             display:'page',
