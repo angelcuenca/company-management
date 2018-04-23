@@ -51,10 +51,17 @@
             <version>1.4.3</version>
         </dependency>
 
+        <!-- Google API -->
         <dependency>
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-gmail</artifactId>
             <version>v1-rev44-1.22.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-oauth2</artifactId>
+            <version>v2-rev112-1.18.0-rc</version>
         </dependency>
 
 
