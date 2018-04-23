@@ -74,7 +74,7 @@
                         <h1 class="mb-5">Gestiona todas tus operaciones en este sitio web.</br>
                             Inicia con tu cuenta de Google
                             </h1>
-                        <a onclick="login()" class="btn btn-outline btn-xl js-scroll-trigger">Iniciar sesion</a>
+                        <a onclick="loginGoogle()" class="btn btn-outline btn-xl js-scroll-trigger">Iniciar sesion</a>
                     </div>
                 </div>
                 <div class="col-lg-5 my-auto">
@@ -240,6 +240,17 @@
     <!-- Login files -->
     <script src="${pageContext.request.contextPath}/statics/js/hello.js"></script>
     <script src="${pageContext.request.contextPath}/statics/js/login.js"></script>
+    <script>
+        $(document).ready(function(){
+            SurveyEngine.login.verifySession();
+        });
+
+        function loginGoogle(){
+            $(document).ready(function(){
+                SurveyEngine.login.init();
+            });
+        }
+    </script>
 
     </body>
 
