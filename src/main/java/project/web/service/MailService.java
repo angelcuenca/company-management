@@ -57,8 +57,8 @@ public class MailService{
              **/
             boolean mailStatus;
             MimeMessage message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("survey.engine@sanmina.com", "survey.engine@sanmina.com"));
-            message.setReplyTo(InternetAddress.parse("survey.engine@sanmina.com", false));
+            message.setFrom(new InternetAddress("name.project@sanmina.com", "name.project@sanmina.com"));
+            message.setReplyTo(InternetAddress.parse("noreply@project.com", false));
 
             Address[] to = new Address[recipients.length];
             for (int i=0; i<recipients.length; i++) {

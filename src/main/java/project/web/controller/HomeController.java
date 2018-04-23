@@ -31,8 +31,8 @@ public class HomeController {
                           @RequestParam(value= "body", required=false) String body,
                           @RequestParam(value= "file", required=false) String file,
                           Model model) throws IOException, MessagingException {
-        String user="angel.cuenca@sanmina.com";
-        String pass="Bouchard23";
+        String user="email";
+        String pass="password";
         StringTokenizer list = new StringTokenizer(recipients, ",");
         String[] recipientsList = new String[list.countTokens()];
 
